@@ -1,0 +1,55 @@
+body {
+    /* Colour */
+    background-color: #E6DCEF;
+    font-family: 'Josefin Slab', serif;
+
+
+    /* Text */
+    text-indent: 20%;
+    font-weight: 900;
+    font-size: 100%;
+
+}
+
+h1 {
+    color: #6E3667;
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.SideBar{
+    /* Colour */
+    background-color: #6E3667;
+    color: Hello;
+
+    /* Margins */
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    z-index: 2;
+
+    /* Text */
+    text-align: center;
+    text-indent: 0%;
+    font-size: 150%;
+    color: #E6DCEF;
+
+}
+
+.SideBar ul{
+    padding: 0;
+}
+
+.SideBar a{
+    /* Colour */
+    color: #E6DCEF;
+
+    /* Text */
+    text-decoration: none;
+}
+
+.FrontPage{
+
+}
