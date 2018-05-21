@@ -1,14 +1,17 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
 body {
     /* Colour */
     background-color: #E6DCEF;
 
+    /* Margins */
+    position: absolute;
+    left: 15%;
 
     /* Text */
     font-family: 'Josefin Slab', serif;
-    text-indent: 20%;
     font-weight: 900;
     font-size: 1.5vw;
 }
@@ -18,6 +21,9 @@ h1 {
     color: #6E3667;
     font-weight: 100;
     font-size: 4vw;
+
+    /* Margins */
+    margin-bottom: 0%;
 }
 
 h3 {
@@ -31,7 +37,7 @@ p {
 }
 
 .SideBar{
-    /* Colour */
+    /* Colour and Background */
     background-image: url(images/texture1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,7 +48,7 @@ p {
     left: 0;
     position: fixed;
     height: 100%;
-    width: 20%;
+    width: 15%;
     z-index: 2;
 
     /* Text */
@@ -54,11 +60,15 @@ p {
 .SideBar ul{
     /* No Default */
     padding: 0;
-    text-indent: 5%;
+
+    /* Margins */
+    position: absolute;
+    left: 5%;
     text-align: left;
 }
 
 .SideBar a{
+
     /* Colour */
     transition: .3s;
     color: #E6DCEF;
@@ -88,6 +98,55 @@ p {
 }
 
 .AboutMe{
-    /* Text */
+    /* Margins */
     margin-left: 4%;
+}
+
+.Resume {
+    /* Margins */
+    position: absolute;
+    width: 650%;
+    height: 5%;
+    margin-top: 0%;
+
+    /* Colour */
+    background-color: #6E3667;
+
+}
+
+.Name h2{
+    /* Margins */
+    position: relative;
+    margin-left: 0%;
+    margin-top: 0%;
+
+    /* Text */
+    font-size: 3vw;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.ProfilePic{
+    /* Position */
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.LinkedIn{
+    /* Margins */
+    margin-left: 40%;
+    margin-top: -30%;
+}
+
+.GitHub{
+    /* Margins */
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+.Email{
+    /* Margins */
+    margin-left: 40%;
+    margin-top: 22%;
 }
