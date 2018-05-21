@@ -134,15 +134,10 @@ p {
 }
 
 .LinkedIn{
+    position: relative;
     /* Margins */
     margin-left: 40%;
     margin-top: -30%;
-}
-
-.GitHub{
-    /* Margins */
-    margin-left: 40%;
-    margin-top: 20%;
 }
 
 .Email{
