@@ -125,10 +125,26 @@ body {
 .Profile h3{
     position: relative;
     left: 5%;
+    font-weight: normal;
+}
+
+.Profile a{
+    /* Colour */
+    transition: .3s;
+    color: #6E3667;
+
+    /* Text */
+    text-decoration: none;
+}
+
+.Profile a:hover{
+    /*Colour*/
+    transition: .3s;
+    color: black;
 }
 
 .Content{
-    margin-top: 23%;
+    margin-top: 18%;
     font-weight: normal;
 }
 
@@ -174,30 +190,4 @@ body {
 
 .Content p{
     margin-bottom: 0;
-}
-.LinkedIn{
-    /* Position */
-    position: absolute;
-    top: 10vw;
-    left: 64%
-}
-
-.Email{
-    /* Position */
-    position: absolute;
-    top: 10vw;
-    left: 30%;
-
-    /* Text */
-    font-size: 2vw;
-}
-
-.GitHub{
-    /* Position */
-    position: absolute;
-    top: 15vw;
-    left: 10%;
-
-    /* Text */
-    font-size: 2vw;
 }
