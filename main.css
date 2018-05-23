@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
+/* ALL */
+
 body {
     /* Text */
     font-family: 'Josefin Slab', serif;
@@ -12,26 +14,37 @@ body {
     background-color: #E6DCEF;
 }
 
-h1 {
-    /* Text */
-    color: #6E3667;
-    font-weight: 100;
-    font-size: 4vw;
-
-    /* Margins */
+.MainContent{
+    /* Position */
     position: absolute;
-    left: 5%;
+    width: 85%;
+    left:15%;
 }
 
-h3 {
-    /* Size */
-    font-size: 3vw;
-}
+.TitleName{
+    /* Position */
+    position: absolute;
+    left:5%;
+    width: 95%;
+    margin-top: 1%;
 
-p {
     /* Text */
-    font-size: 1.7vw;
+    font-weight: 900;
+    font-size: 2vw;
+    color: #6E3667;
 }
+
+.Bar{
+    /* Position */
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 8vw;
+    height: .5vw;
+    background-color: #6E3667;
+}
+
+/* SIDEBAR */
 
 .SideBar{
     /* Colour and Background */
@@ -41,8 +54,8 @@ p {
     color: #E6DCEF;
 
     /* Margins */
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     position: fixed;
     height: 100%;
     width: 15%;
@@ -52,6 +65,11 @@ p {
     text-align: center;
     text-indent: 0%;
     font-size: 1.7vw;
+}
+
+.SideBar h3 {
+    /* Size */
+    font-size: 3vw;
 }
 
 .SideBar ul{
@@ -88,143 +106,98 @@ p {
     font-size: 1.3vw
 }
 
-.FrontPage{
-    /* Margins */
-    position: absolute;
-    left: 15%;
-    height: 100%;
-    width: 85%;
-    top: 0%;
+/* RESUME PAGE */
 
+.Resume{
+    /* Position */
+    position: absolute;
+    top: 10vw;
+    left: 3%;
+    overflow: hidden;
+    display: flex;
+    font-family: sans-serif;
 }
 
-.AboutMe{
-    /* Margins */
-    position: absolute;
-    top: 15%;
-    left: 4%;
+.Profile img{
+    float:left;
 }
 
-.Bar {
-    /* Margins */
-    position: absolute;
-    width: 100%;
-    height: 1%;
-    top: 15%;
+.Profile h3{
+    position: relative;
+    left: 5%;
+}
 
-    /* Colour */
-    background-color: #6E3667;
+.Content{
+    margin-top: 23%;
+    font-weight: normal;
+}
+
+.Content p{
+    padding: none;
+    margin-top: 0;
+}
+
+.Content ul{
+    padding: none;
+    margin-top: 0;
+}
+
+.Content h2{
+    font-size: 4vw;
+    margin-top: 0;
+}
+
+.Content h4{
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+
+.Content h5{
+    font-size: 1.5vw;
+    margin-bottom: 0;
 }
 
 .Name h2{
-    /* Margins */
-    position: absolute;
-    left: 2%;
-    top: 47%;
-
-    /* Text */
-    font-size: 3vw;
-    color: black;
-    font-weight: 500;
-    font-family: sans-serif;
-}
-
-.ProfilePic{
     /* Position */
     position: absolute;
+    top: 25vw;
     left: 3%;
-    top: 20%;
+
+    /* Text */
+    font-weight: bolder;
+    font-size: 3vw;
+}
+.Skills{
+    position: relative;
+    margin-top: -2vw;
 }
 
+.Content p{
+    margin-bottom: 0;
+}
 .LinkedIn{
-    /* Margins */
+    /* Position */
     position: absolute;
-    left: 40%;
-    top: 20%;
+    top: 10vw;
+    left: 64%
 }
 
 .Email{
-    /* Margins */
+    /* Position */
     position: absolute;
-    left: 40%;
-    top: 41%;
-
-    /* Text */
-    font-family: sans-serif;
-    font-weight: 400;
-}
-
-.GitHub{
-    /* Margins */
-    position: absolute;
-    left: 40%;
-    top: 46%;
-    width: 70%;
-
-    /* Text */
-    font-family: sans-serif;
-    font-weight: 400;
-
-}
-.GitHub a{
-    /* Colour */
-    transition: .3s;
-    color: #6E3667;
-
-    /* Text */
-    text-decoration: none;
-}
-
-.GitHub a:hover{
-    /* Colour */
-    transition: .3s;
-    color: Black;
-
-    /* Text */
-    text-decoration: none;
-}
-
-.Subsection h4{
-    /* Margins */
-    position: absolute;
-    top: 54%;
-    left: 4%;
+    top: 10vw;
+    left: 30%;
 
     /* Text */
     font-size: 2vw;
-    font-weight: 500;
-    font-family: sans-serif;
 }
 
-.Skills h5{
-    /* Text */
-    font-size: 1.8vw;
-    font-weight: 300;
-    font-family: sans-serif;
-}
-
-.Skills ul{
-    /* Padding */
-    padding: 0;
+.GitHub{
+    /* Position */
+    position: absolute;
+    top: 15vw;
+    left: 10%;
 
     /* Text */
-    font-size: 1.8vw;
-    font-weight: 300;
-    font-family: sans-serif;
-}
-
-.Comp{
-    /* Margins */
-    position: absolute;
-    top: 59%;
-    left: 4%;
-    width: 100%
-}
-
-.CompSkillsDesc{
-    /* Margins */
-    position: absolute;
-    top: 45%;
-    left: 7%;
-    width: 100%
+    font-size: 2vw;
 }
