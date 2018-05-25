@@ -191,3 +191,56 @@ body {
 .Content p{
     margin-bottom: 0;
 }
+
+/* HACKATHON PAGE */
+
+.HackList{
+    /* Position */
+    position: absolute;
+    top: 10vw;
+    left: 3%;
+    right: 2%;
+    text-align: justify;
+    overflow: hidden;
+    display: block;
+
+    /* Text */
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.HackList iframe{
+    margin-left: 27.5%;
+}
+
+.HackList img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HackList h2{
+
+    /* Text */
+    font-size: 1.6vw;
+}
+
+.HackList p{
+        /* Text */
+        font-size: 1.5vw;
+}
+
+.HackList a{
+    /* Colour */
+    transition: .3s;
+    color: #6E3667;
+
+    /* Text */
+    text-decoration: none;
+}
+
+.HackList a:hover{
+    /*Colour*/
+    transition: .3s;
+    color: black;
+}
