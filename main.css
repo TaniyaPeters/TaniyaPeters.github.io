@@ -113,6 +113,7 @@ body {
     position: absolute;
     top: 10vw;
     left: 3%;
+    right: 3%;
     overflow: hidden;
     display: flex;
     font-family: sans-serif;
@@ -144,7 +145,7 @@ body {
 }
 
 .Content{
-    margin-top: 18%;
+    margin-top: 10%;
     font-weight: normal;
 }
 
@@ -152,6 +153,7 @@ body {
     padding: none;
     margin-top: 0;
 }
+
 
 .Content ul{
     padding: none;
@@ -199,7 +201,7 @@ body {
     position: absolute;
     top: 10vw;
     left: 3%;
-    right: 2%;
+    right: 3%;
     text-align: justify;
     overflow: hidden;
     display: block;
@@ -210,24 +212,35 @@ body {
 }
 
 .HackList iframe{
+    /* Margins */
     margin-left: 27.5%;
 }
 
 .HackList img{
+    /* Margins */
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .HackList h2{
-
     /* Text */
     font-size: 1.6vw;
 }
 
 .HackList p{
-        /* Text */
-        font-size: 1.5vw;
+    /* Text */
+    font-size: 1.5vw;
+}
+
+.HackList h6{
+    /* Margins */
+    padding: none;
+
+    /* Text */
+    font-size: 1.5vw;
+    font-weight: normal;
+    text-align: center;
 }
 
 .HackList a{
@@ -243,4 +256,31 @@ body {
     /*Colour*/
     transition: .3s;
     color: black;
+}
+
+/* PROJECTS */
+
+.ProjectList{
+    /* Position */
+    position: absolute;
+    top: 10vw;
+    left: 3%;
+    right: 3%;
+    text-align: justify;
+    overflow: hidden;
+    display: block;
+
+    /* Text */
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.ProjectList h2{
+    /* Text */
+    font-size: 1.6vw;
+}
+
+.ProjectLists p{
+    /* Text */
+    font-size: 1.5vw;
 }
