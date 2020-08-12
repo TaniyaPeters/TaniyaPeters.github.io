@@ -34,19 +34,9 @@ body {
     color: #6E3667;
 }
 
-.Bar{
-    /* Position */
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 8vw;
-    height: .5vw;
-    background-color: #6E3667;
-}
+/* TOPBAR */
 
-/* SIDEBAR */
-
-.SideBar{
+.TopBar{
     /* Colour and Background */
     background-image: url(images/texture1.png);
     background-size: cover;
@@ -57,32 +47,40 @@ body {
     top: 0%;
     left: 0%;
     position: fixed;
-    height: 100%;
-    width: 15%;
+    height: 10%;
+    width: 100%;
     z-index: 2;
 
     /* Text */
-    text-align: center;
+    text-align: left;
     text-indent: 0%;
     font-size: 1.7vw;
 }
 
-.SideBar h3 {
-    /* Size */
-    font-size: 3vw;
-}
+.TopBar ul{
 
-.SideBar ul{
+    /* Style Type */
+    list-style-type: none;
+
     /* No Default */
     padding: 0;
 
     /* Margins */
     position: absolute;
-    left: 5%;
-    text-align: left;
+    top: 0%;
+    left: 0%;
+    border: 0;
+    height: 10%;
+    width: 100%;
 }
 
-.SideBar a{
+.TopBar li{
+    display:inline;
+    padding-right: 5%;
+
+}
+
+.TopBar a{
     /* Colour */
     transition: .3s;
     color: #E6DCEF;
@@ -91,7 +89,7 @@ body {
     text-decoration: none;
 }
 
-.SideBar a:hover{
+.TopBar a:hover{
     /*Colour*/
     transition: .3s;
     color: black;
