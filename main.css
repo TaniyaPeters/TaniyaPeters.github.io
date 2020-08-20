@@ -8,53 +8,65 @@ body {
     /* Text */
     font-family: 'Josefin Slab', serif;
     font-weight: 900;
-    font-size: 1.5vw;
+    font-size: 3vw;
 
     /* Colour */
-    background-color: #E6DCEF;
+    background-color:white;
 }
 
 .MainContent{
     /* Position */
     position: absolute;
-    width: 85%;
-    left:15%;
+    margin:0;
+    left:0;
+    top:5vh;
+    padding: 0;
+    width: 100%;
+    height: 95vh;
+}
+.Canvas{
+    /* Position */
+    position: absolute;
+    margin:0;
+    left:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
 }
 
 .TitleName{
     /* Position */
     position: absolute;
-    left:5%;
-    width: 95%;
-    margin-top: 1%;
-
+    left:5vw;
     /* Text */
     font-weight: 900;
-    font-size: 2vw;
-    color: #6E3667;
+    font-size: 3vh;
+    color: #028090;
 }
 
 /* TOPBAR */
 
 .TopBar{
     /* Colour and Background */
-    background-image: url(images/texture1.png);
+    /*background-image: url(images/texture1.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    color: #E6DCEF;
+    background-repeat: no-repeat;*/
+    background-color: #114B5F;
+    opacity: 0.5;
 
     /* Margins */
     top: 0%;
     left: 0%;
     position: fixed;
-    height: 10%;
+    height: 5vh;
     width: 100%;
     z-index: 2;
 
     /* Text */
     text-align: left;
     text-indent: 0%;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 
 .TopBar ul{
@@ -66,43 +78,44 @@ body {
     padding: 0;
 
     /* Margins */
-    position: absolute;
+    position: fixed;
     top: 0%;
-    left: 0%;
     border: 0;
-    height: 10%;
+    height: 5vh;
     width: 100%;
+    margin: 0;
 }
 
 .TopBar li{
-    display:inline;
-    padding-right: 5%;
+    float: left;
+    display:block;
+    padding-top: 1vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    height: 3vh;
+    padding-bottom: 1vh;
 
 }
 
-.TopBar a{
-    /* Colour */
+.TopBar li:hover{
+
+    /*Colour*/
     transition: .3s;
-    color: #E6DCEF;
+    background-color: #F45B69;
+}
+
+.\TopBar a{
+
+    /* Colour */
+    color: #E4FDE1;
+
+    /*Size*/
+    height: 100%;
 
     /* Text */
     text-decoration: none;
 }
 
-.TopBar a:hover{
-    /*Colour*/
-    transition: .3s;
-    color: black;
-}
-
-.Contact{
-    /* Position */
-    position: absolute;
-    top: 85%;
-
-    /* Size */
-    font-size: 1.3vw
-}
 
 /* RESUME PAGE */
 
@@ -130,7 +143,7 @@ body {
 .Profile a{
     /* Colour */
     transition: .3s;
-    color: #6E3667;
+    color: #028090;
 
     /* Text */
     text-decoration: none;
@@ -244,7 +257,7 @@ body {
 .HackList a{
     /* Colour */
     transition: .3s;
-    color: #6E3667;
+    color: #028090;
 
     /* Text */
     text-decoration: none;
